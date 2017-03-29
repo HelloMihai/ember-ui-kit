@@ -18,7 +18,7 @@ export default Object.freeze({
     if (typeof object === 'object') {
       let asPrimitive = object.valueOf();
 
-      if (typeof asPrimitive !== 'object') {
+      if (typeof asPrimitive !== 'object' && typeof object.set === 'function') {
         return true;
       }
     }
