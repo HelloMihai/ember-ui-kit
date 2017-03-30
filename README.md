@@ -6,7 +6,7 @@
 
 `ember-ui-kit` is a composable component library meant as basic building blocks for application components.
 
-All components included `ember-ui-kit` makes no assumption on the component should look and feel. As such, it is
+All components included in `ember-ui-kit` make no assumption on how the component should look and feel. As such, it is
 up to you to determine that. The components are built at an abstract level to help you manage DOM states and
 get out of the way when it's time to style it.
 
